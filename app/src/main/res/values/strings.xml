@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToolbarCenterTitle</string>
+    <string name="app_description">Easy and proven way to center title</string>
+    <string name="action_settings">Settings</string>
+</resources>
