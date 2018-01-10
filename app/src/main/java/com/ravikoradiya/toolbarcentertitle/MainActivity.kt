@@ -15,13 +15,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
+        binding.isTitleInCenter = true
         setSupportActionBar(binding.toolbar)
-
         title = getString(R.string.app_name)
         binding.toolbar.subtitle = getString(R.string.app_description)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
+
+        binding.switch1.setOnCheckedChangeListener { compoundButton, b -> binding.isTitleInCenter = b }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
