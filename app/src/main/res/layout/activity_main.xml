@@ -9,6 +9,7 @@
         <variable
             name="isTitleInCenter"
             type="Boolean" />
+
     </data>
 
     <android.support.design.widget.CoordinatorLayout
@@ -55,11 +56,41 @@
                 android:id="@+id/switch1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
                 android:checked="true"
                 android:text="Title In Center"
+                app:layout_constraintBottom_toTopOf="@+id/editTitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:lines="1"
+                app:layout_constraintBottom_toTopOf="@+id/editSubTitle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <EditText
+                android:id="@+id/editSubTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Sub Title"
+                android:inputType="textPersonName"
+                android:lines="1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
