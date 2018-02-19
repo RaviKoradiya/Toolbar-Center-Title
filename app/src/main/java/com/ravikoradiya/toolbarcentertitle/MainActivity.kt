@@ -9,7 +9,6 @@ import android.text.TextWatcher
 import android.view.Menu
 import com.ravikoradiya.toolbarcentertitle.databinding.ActivityMainBinding
 
-
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
@@ -64,5 +63,4 @@ class MainActivity : AppCompatActivity() {
 
         return true
     }
-
 }

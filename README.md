@@ -1,8 +1,12 @@
-# Toolbar-Center-Title
+# Toolbar-Center-Title  [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)[![](https://jitpack.io/v/RaviKoradiya/Toolbar-Center-Title.svg)](https://jitpack.io/#RaviKoradiya/Toolbar-Center-Title)
 
 Toolbar-Center-Title is build to align title center within existing ActionBar.
 
-[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)[![](https://jitpack.io/v/RaviKoradiya/Toolbar-Center-Title.svg)](https://jitpack.io/#RaviKoradiya/Toolbar-Center-Title)
+
+
+![CenterTitle](/../master/images/Toolbar-Center-Title-1.png?raw=true "Demo") ![CenterTitle2](/../master/images/Toolbar-Center-Title-2.png?raw=true "Demo")
+
+
 
 ## Dependency
 
